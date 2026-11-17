@@ -221,3 +221,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# 1. 排除超大原始采集数据（本地磁盘与网盘双备份即可）
+11106655_pallet_part00_phase20/generation/*.json
+!11106655_pallet_part00_phase20/generation/scene_env_*.json
+
+# 2. 排除批量生成的图像与海量标签文件
+11106655_pallet_part00_phase20/images/
+11106655_pallet_part00_phase20/labels/
+11106655_pallet_part00_phase20/labels_seg/
+
+# 3. 排除可视化抽检图与最终打包文件
+overlays*/
+*.zip
+
+# 4. Python 虚拟环境与缓存
+.venv/
+.ipynb_checkpoints/
