@@ -5,11 +5,11 @@ channels:
 dependencies:
   - python=3.10
   - pip
-  - pillow          
-  - pyyaml          
-  - pandas          
-  - matplotlib      
-  - jupyter         
+  - pillow=12.3
+  - pyyaml=6.0
+  - pandas=2.3
+  - matplotlib=3.10
+  - jupyter=1.1
   - pip:
-      - imagehash
-      - ultralytics
+      - imagehash==4.3.2
+      - ultralytics==8.4.215
