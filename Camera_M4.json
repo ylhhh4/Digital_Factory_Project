@@ -1,0 +1,21 @@
+{
+  "datagen": {
+    "cam": {
+      "alphaMin": 0,
+      "alphaMax": 315,
+      "alphaStep": 45,
+      "betaMin": 15,
+      "betaMax": 75,
+      "betaStep": 30,
+      "radiusFactorMin": 2,
+      "radiusFactorMax": 8,
+      "radiusFactorStep": 2
+    },
+    "background": {
+      "surfaceMode": "cylinder",
+      "seed": 11,
+      "jitterRatio": 0.3,
+      "materialVariation": 0.5
+    }
+  }
+}
