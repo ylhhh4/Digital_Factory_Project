@@ -241,5 +241,4 @@ overlays*/
 .venv/
 .ipynb_checkpoints/
 
-check_dist.py
 distribution_check.png
