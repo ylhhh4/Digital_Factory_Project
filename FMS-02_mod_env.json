@@ -1,0 +1,202 @@
+{
+ "cameras": [
+  {
+   "id": "camera.overview",
+   "type": "FreeCamera",
+   "position": [
+    -6.5,
+    8.0,
+    10.0
+   ],
+   "rotation": [
+    0.34,
+    2.21,
+    0
+   ],
+   "speed": 0.4
+  },
+  {
+   "id": "camera.operatorSide",
+   "type": "FreeCamera",
+   "position": [
+    10.5,
+    6.5,
+    -12.3
+   ],
+   "rotation": [
+    0.35,
+    0,
+    0
+   ],
+   "speed": 0.4
+  },
+  {
+   "id": "camera.hallOutside",
+   "type": "FreeCamera",
+   "position": [
+    46,
+    24,
+    40
+   ],
+   "rotation": [
+    0.37,
+    -2.42,
+    0
+   ],
+   "speed": 0.6
+  },
+  {
+   "id": "camera.corridor",
+   "type": "FreeCamera",
+   "position": [
+    11.8,
+    3.0,
+    -8.5
+   ],
+   "rotation": [
+    0.15,
+    0,
+    0
+   ],
+   "speed": 0.1
+  },
+  {
+   "id": "camera.MT1",
+   "type": "FreeCamera",
+   "position": [
+    12.4,
+    2.6,
+    -3.7
+   ],
+   "rotation": [
+    0.2,
+    -1.5707963267948966,
+    0
+   ],
+   "speed": 0.05
+  },
+  {
+   "id": "camera.MT2",
+   "type": "FreeCamera",
+   "position": [
+    11.200000000000001,
+    2.6,
+    -3.7
+   ],
+   "rotation": [
+    0.2,
+    1.5707963267948966,
+    0
+   ],
+   "speed": 0.05
+  },
+  {
+   "id": "camera.magazineMT1",
+   "type": "FreeCamera",
+   "position": [
+    4.499999999999999,
+    5.5,
+    1.5
+   ],
+   "rotation": [
+    0.75,
+    3.141592653589793,
+    0
+   ],
+   "speed": 0.1
+  },
+  {
+   "id": "camera.magazineMT2",
+   "type": "FreeCamera",
+   "position": [
+    19.1,
+    5.5,
+    1.5
+   ],
+   "rotation": [
+    0.75,
+    3.141592653589793,
+    0
+   ],
+   "speed": 0.1
+  },
+  {
+   "id": "camera.rail",
+   "type": "FreeCamera",
+   "position": [
+    -4,
+    4.5,
+    0
+   ],
+   "rotation": [
+    0.22,
+    1.5707963267948966,
+    0
+   ],
+   "speed": 0.2
+  }
+ ],
+ "lights": [
+  {
+   "id": "light.hemi",
+   "type": "HemisphericLight",
+   "direction": [
+    0.3,
+    1,
+    0.2
+   ],
+   "intensity": 0.6
+  },
+  {
+   "id": "light.sun",
+   "type": "DirectionalLight",
+   "position": [
+    13,
+    30,
+    15
+   ],
+   "direction": [
+    -0.3,
+    -1,
+    -0.4
+   ],
+   "intensity": 0.7
+  },
+  {
+   "id": "light.fill",
+   "type": "DirectionalLight",
+   "position": [
+    8,
+    20,
+    -25
+   ],
+   "direction": [
+    0.3,
+    -0.6,
+    0.6
+   ],
+   "intensity": 0.35
+  }
+ ],
+ "shadows": {
+  "darkness": 0.6,
+  "bias": 1e-05,
+  "environmentIntensity": 1.0
+ },
+ "env": {
+  "skyboxTexture": "textures/studio.env",
+  "backgroundColor": [
+   0.2,
+   0.22,
+   0.28
+  ],
+  "ground": {
+   "texture": "textures/concrete.jpg",
+   "size": [
+    60,
+    30,
+    1
+   ]
+  }
+ }
+}
