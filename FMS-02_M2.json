@@ -2998,7 +2998,10 @@
 					"unit": 1
 				}
 			],
-			"placementRelTo": "RACK.L2_S7"
+			"placementRelTo": "RACK.L2_S7",
+			"assignmentTo": [
+    		"FMS"
+   			]
 		},
 		{
 			"id": "K06_copy2",
@@ -3020,7 +3023,10 @@
 					"unit": 1
 				}
 			],
-			"placementRelTo": "RACK.L2_S7"
+			"placementRelTo": "RACK.L2_S7",
+			"assignmentTo": [
+    		"FMS"
+   			]
 		},
 		{
 			"id": "K06_copy3",
@@ -3042,7 +3048,10 @@
 					"unit": 1
 				}
 			],
-			"placementRelTo": "RACK.L2_S7"
+			"placementRelTo": "RACK.L2_S7",
+			"assignmentTo": [
+    		"FMS"
+   			]
 		},
 		{
 			"id": "K07",
