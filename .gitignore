@@ -238,3 +238,6 @@ overlays*/
 # 4. Python 虚拟环境与缓存
 .venv/
 .ipynb_checkpoints/
+
+check_dist.py
+distribution_check.png
