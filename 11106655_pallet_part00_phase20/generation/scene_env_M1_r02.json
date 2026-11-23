@@ -1,0 +1,15 @@
+{
+  "datagen": {
+    "cam": {
+      "alphaMin": 22.5,
+      "alphaMax": 337.5,
+      "alphaStep": 45,
+      "betaMin": 10,
+      "betaMax": 80,
+      "betaStep": 35,
+      "radiusFactorMin": 1.5,
+      "radiusFactorMax": 7.5,
+      "radiusFactorStep": 2
+    }
+  }
+}
