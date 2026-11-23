@@ -2953,9 +2953,7 @@
 				}
 			],
 			"placementRelTo": "RACK.L1_S16",
-			"assignmentTo": [
-    		"FMS"
-   			]
+			"parentObject": "RACK.L1_S16"
 		},
 		{
 			"id": "K06",
@@ -2978,9 +2976,7 @@
 				}
 			],
 			"placementRelTo": "RACK.L2_S7",
-			"assignmentTo": [
-    		"FMS"
-   			]
+			"parentObject": "RACK.L2_S7"
 		},
 		{
 			"id": "K06_copy1",
