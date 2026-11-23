@@ -225,6 +225,8 @@ __marimo__/
 # 1. 排除超大原始采集数据（本地磁盘与网盘双备份即可）
 11106655_pallet_part00_phase20/generation/*.json
 !11106655_pallet_part00_phase20/generation/scene_env_*.json
+11106655_pallet_part00_phase20/pilot/*.json
+!11106655_pallet_part00_phase20/pilot/scene_env_*.json
 
 # 2. 排除批量生成的图像与海量标签文件
 11106655_pallet_part00_phase20/images/
