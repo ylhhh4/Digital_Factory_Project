@@ -6,21 +6,8 @@
 	},
 	"scene": [
 		"hdrSkyBox",
+		"ground",
 		"building",
-		"hall",
-		"hall.floor",
-		"hall.structure",
-		"hall.wallFront",
-		"hall.wallBack",
-		"hall.wallWest",
-		"hall.wallEast",
-		"hall.roof",
-		"hall.lighting",
-		"hall.doorFront",
-		"hall.doorEast",
-		"hall.crane",
-		"hall.crane.trolley",
-		"hall.crane.hook",
 		"RGV.palletPos",
 		"LU1.palletPos",
 		"MT1.apcPos1",
@@ -2993,16 +2980,16 @@
 		},
 		{
 			"id": "K06_copy1",
-			"descr": "pallet 630 x 630 with the part00 fixture for phase20, K06_copy1",
+			"descr": "pallet 630 x 630 with the part00 fixture for phase20, no parts (parked in the rack)",
 			"type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
 			"position": [
-				6.0,
 				0,
-				3.5
+				0,
+				-1
 			],
 			"rotation": [
 				0,
-				0.5,
+				0,
 				0
 			],
 			"representations": [
@@ -3011,20 +2998,20 @@
 					"unit": 1
 				}
 			],
-			"placementRelTo": "building"
+			"placementRelTo": "RACK.L2_S7"
 		},
 		{
 			"id": "K06_copy2",
-			"descr": "pallet 630 x 630 with the part00 fixture for phase20, K06_copy2",
+			"descr": "pallet 630 x 630 with the part00 fixture for phase20, no parts (parked in the rack)",
 			"type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
 			"position": [
-				7.5,
 				0,
-				4.2
+				0,
+				-2
 			],
 			"rotation": [
 				0,
-				1.8,
+				0,
 				0
 			],
 			"representations": [
@@ -3033,20 +3020,20 @@
 					"unit": 1
 				}
 			],
-			"placementRelTo": "building"
+			"placementRelTo": "RACK.L2_S7"
 		},
 		{
 			"id": "K06_copy3",
-			"descr": "pallet 630 x 630 with the part00 fixture for phase20, K06_copy3",
+			"descr": "pallet 630 x 630 with the part00 fixture for phase20, no parts (parked in the rack)",
 			"type": "https://w3id.org/ontoeng/factory#WorkholdingPallet",
 			"position": [
-				9.0,
 				0,
-				3.2
+				0,
+				-3
 			],
 			"rotation": [
 				0,
-				-0.8,
+				0,
 				0
 			],
 			"representations": [
@@ -3055,7 +3042,7 @@
 					"unit": 1
 				}
 			],
-			"placementRelTo": "building"
+			"placementRelTo": "RACK.L2_S7"
 		},
 		{
 			"id": "K07",
@@ -3756,6 +3743,10 @@
 			],
 			"placementRelTo": "MT2",
 			"parentObject": "MT2"
+		},
+		{
+			"id": "ground",
+			"type": ""
 		}
 	]
 }
