@@ -8,6 +8,11 @@
 python vebjs_yolo.py veb2yolo 11106655_pallet_part00_phase20/pilot/M*.json -o 11106655_pallet_part00_phase20 --task both --rename K05=pallet_part00_phase20 K06=pallet_part00_phase20 K06_copy1=pallet_part00_phase20 K06_copy2=pallet_part00_phase20 K06_copy3=pallet_part00_phase20
 ```
 
+### Random Inspection
+```bash
+python vebjs_yolo.py show 11106655_pallet_part00_phase20 -n 30 -o overlays_m2_pilot
+```
+
 ### To check the distribution of the images
 
 ```bash
