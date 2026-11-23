@@ -25,3 +25,6 @@ https://digital-factory.io/vebjs/?inputscene=https://raw.githubusercontent.com/y
 Professor:
 
 https://digital-factory.io/vebjs/?inputscene=https://raw.githubusercontent.com/ylhhh4/Digital_Factory_Project/main/FMS-02_mod.json&repoMod3d=https://murgo-polimi.github.io/VEB.js-FMS-00/models/FMS/GLB/
+
+What's the difference between the two json file?
+The parentObject, no parentObject for the pallet when duplicating

@@ -3011,8 +3011,7 @@
 					"unit": 1
 				}
 			],
-			"placementRelTo": "building",
-			"parentObject": "building"
+			"placementRelTo": "building"
 		},
 		{
 			"id": "K06_copy2",
@@ -3034,8 +3033,7 @@
 					"unit": 1
 				}
 			],
-			"placementRelTo": "building",
-			"parentObject": "building"
+			"placementRelTo": "building"
 		},
 		{
 			"id": "K06_copy3",
@@ -3057,8 +3055,7 @@
 					"unit": 1
 				}
 			],
-			"placementRelTo": "building",
-			"parentObject": "building"
+			"placementRelTo": "building"
 		},
 		{
 			"id": "K07",
