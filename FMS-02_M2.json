@@ -2985,7 +2985,7 @@
 			"position": [
 				0,
 				0,
-				-1
+				0
 			],
 			"rotation": [
 				0,
@@ -3000,8 +3000,8 @@
 			],
 			"placementRelTo": "RACK.L2_S7",
 			"assignmentTo": [
-    		"FMS"
-   			]
+				"FMS"
+			]
 		},
 		{
 			"id": "K06_copy2",
@@ -3010,7 +3010,7 @@
 			"position": [
 				0,
 				0,
-				-2
+				0
 			],
 			"rotation": [
 				0,
@@ -3025,8 +3025,8 @@
 			],
 			"placementRelTo": "RACK.L2_S7",
 			"assignmentTo": [
-    		"FMS"
-   			]
+				"FMS"
+			]
 		},
 		{
 			"id": "K06_copy3",
@@ -3035,7 +3035,7 @@
 			"position": [
 				0,
 				0,
-				-3
+				0
 			],
 			"rotation": [
 				0,
@@ -3050,8 +3050,8 @@
 			],
 			"placementRelTo": "RACK.L2_S7",
 			"assignmentTo": [
-    		"FMS"
-   			]
+				"FMS"
+			]
 		},
 		{
 			"id": "K07",
