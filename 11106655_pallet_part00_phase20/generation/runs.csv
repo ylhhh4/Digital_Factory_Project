@@ -1,16 +1,16 @@
 run_id,mode,export_file,n_images,surface_mode,seed,jitterRatio,materialVariation,alphaMin,alphaMax,alphaStep,betaMin,betaMax,betaStep,radiusFactorMin,radiusFactorMax,radiusFactorStep,n_tagged_copies,notes
-M1_r01,M1,M1_r01.json,93,,,,,0,315,45,15,75,30,2,8,2,1,Target K06 in rack L2_S7
-M1_r02,M1,M1_r02.json,94,,,,,22.5,337.5,45,10,80,35,1.5,7.5,2,1,Target K05 in rack L1_S16
-M2_r01,M2,M2_r01_k2.json,100,,,,,,,,,,,,,,2,Manual 2 copies off-centre
-M2_r02,M2,M2_r02_k3.json,80,,,,,,,,,,,,,,3,Manual 3 copies off-centre + border crop
-M2_r03,M2,M2_r03_k4.json,60,,,,,,,,,,,,,,4,Manual 4 copies off-centre + border crop
-M2_r04,M2,M2_r04_k5.json,60,,,,,,,,,,,,,,5,Manual 5 copies off-centre + border crop
-M3_r01,M3,M3_r01_seed11.json,72,plane,11,0.3,0.5,0,315,45,15,75,30,2,8,3,1,Artificial plane background seed 11
-M3_r02,M3,M3_r02_seed25.json,72,plane,25,0.5,0.7,0,315,45,15,75,30,2,8,3,1,Artificial plane background seed 25
-M3_r03,M3,M3_r03_seed39.json,72,plane,39,0.7,0.4,0,315,45,15,75,30,2,8,3,1,Artificial plane background seed 39
-M4_r01,M4,M4_r01_seed12.json,72,cylinder,12,0.3,0.5,0,315,45,15,75,30,2,8,3,1,Artificial cylinder background seed 12
-M4_r02,M4,M4_r02_seed28.json,72,cylinder,28,0.5,0.7,0,315,45,15,75,30,2,8,3,1,Artificial cylinder background seed 28
-M4_r03,M4,M4_r03_seed44.json,72,cylinder,44,0.7,0.4,0,315,45,15,75,30,2,8,3,1,Artificial cylinder background seed 44
-M5_r01,M5,M5_r01_seed13.json,72,sphere,13,0.3,0.5,0,315,45,15,75,30,2,8,3,1,Artificial sphere background seed 13
-M5_r02,M5,M5_r02_seed29.json,72,sphere,29,0.5,0.7,0,315,45,15,75,30,2,8,3,1,Artificial sphere background seed 29
-M5_r03,M5,M5_r03_seed45.json,72,sphere,45,0.7,0.4,0,315,45,15,75,30,2,8,3,1,Artificial sphere background seed 45
+M1_r01,M1,M1_r01.json,20,,,,,0,315,45,15,75,30,2,8,2,1,Target K06 in rack L2_S7
+M1_r02,M1,M1_r02.json,20,,,,,22.5,337.5,45,10,80,35,1.5,7.5,2,1,Target K05 in rack L1_S16
+M2_r01,M2,M2_r01_k2.json,17,,,,,,,,,,,,,,2,Manual 2 copies off-centre
+M2_r02,M2,M2_r02_k3.json,12,,,,,,,,,,,,,,3,Manual 3 copies off-centre + border crop
+M2_r03,M2,M2_r03_k4.json,13,,,,,,,,,,,,,,4,Manual 4 copies off-centre + border crop
+M2_r04,M2,M2_r04_k5.json,10,,,,,,,,,,,,,,5,Manual 5 copies off-centre + border crop
+M3_r01,M3,M3_r01_seed11.json,14,plane,11,0.3,0.5,0,315,45,15,75,30,2,8,3,1,Artificial plane background seed 11
+M3_r02,M3,M3_r02_seed25.json,25,plane,25,0.5,0.7,0,315,45,15,75,30,2,8,3,1,Artificial plane background seed 25
+M3_r03,M3,M3_r03_seed39.json,21,plane,39,0.7,0.4,0,315,45,15,75,30,2,8,3,1,Artificial plane background seed 39
+M4_r01,M4,M4_r01_seed12.json,16,cylinder,12,0.3,0.5,0,315,45,15,75,30,2,8,3,1,Artificial cylinder background seed 12
+M4_r02,M4,M4_r02_seed28.json,19,cylinder,28,0.5,0.7,0,315,45,15,75,30,2,8,3,1,Artificial cylinder background seed 28
+M4_r03,M4,M4_r03_seed44.json,16,cylinder,44,0.7,0.4,0,315,45,15,75,30,2,8,3,1,Artificial cylinder background seed 44
+M5_r01,M5,M5_r01_seed29.json,13,sphere,13,0.3,0.5,0,315,45,15,75,30,2,8,3,1,Artificial sphere background seed 13
+M5_r02,M5,M5_r02_seed37.json,22,sphere,29,0.5,0.7,0,315,45,15,75,30,2,8,3,1,Artificial sphere background seed 29
+M5_r03,M5,M5_r03_seed45.json,20,sphere,45,0.7,0.4,0,315,45,15,75,30,2,8,3,1,Artificial sphere background seed 45
