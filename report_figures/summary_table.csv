@@ -1,0 +1,12 @@
+Req,Requirement,Target,Measured,Status
+R1,Dataset size & class,"1,000 images, 1 class","258 images, {0: 'pallet_part00_phase20'}",FAIL
+R2,Instances per image,70/10/8/6/6% (±3%),79.8%/7.4%/3.9%/5.0%/3.9%,FAIL
+R3,Image format,"1 resolution, non-square",1920x1080 (1 res),PASS
+R4,Generation-mode mix,M2: 300–330; Auto >=10%,"M1:40, M2:52, M3:60, M4:51, M5:55",FAIL
+R5,Scale ladder,30/40/30% (±5%),42.6/17.8/39.6%,FAIL
+R6,Viewpoint coverage,24/24 cells covered,24/24 cells,PASS
+R7,Position in frame,"Outer >=3%, Centre <=50%","MinOuter=2.1%, Centre=62.2%",FAIL
+R8,Truncation share,5.0–15.0% of instances,4.79%,FAIL
+R9,Minimum box size,>= 16.0 px short side,42.00 px,PASS
+R10,Label quality,"0 errors, diff <= 2.0 px","0 errors, max diff=8.00 px",FAIL
+R11,Near-duplicate rate,<= 2.0% (pHash <= 5),63.95%,FAIL
