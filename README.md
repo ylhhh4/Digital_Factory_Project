@@ -30,3 +30,9 @@ https://digital-factory.io/vebjs/?inputscene=https://raw.githubusercontent.com/y
 Professor:
 
 https://digital-factory.io/vebjs/?inputscene=https://raw.githubusercontent.com/ylhhh4/Digital_Factory_Project/main/FMS-02_mod.json&repoMod3d=https://murgo-polimi.github.io/VEB.js-FMS-00/models/FMS/GLB/
+
+### How to use analysis.ipynb
+```bash
+source /d/Anaconda/etc/profile.d/conda.sh && conda activate df-vebjs
+jupyter nbconvert --to notebook --execute --inplace analysis.ipynb
+```
